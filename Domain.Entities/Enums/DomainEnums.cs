@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities.Enums
 {
-    internal class DomainEnums
+    public class DomainEnums
     {
+        public enum Direction
+        {
+            North,
+            East,
+            South,
+            West
+        }
     }
 }
