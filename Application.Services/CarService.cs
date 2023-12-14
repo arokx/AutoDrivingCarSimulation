@@ -38,7 +38,19 @@ namespace Application.Services
 
         public DomainEnums.Direction RotateLeft(DomainEnums.Direction currentDirection)
         {
-            throw new NotImplementedException();
+            switch (currentDirection)
+            {
+                case Direction.North:
+                    return Direction.West;
+                case Direction.West:
+                    return Direction.South;
+                case Direction.South:
+                    return Direction.East;
+                case Direction.East:
+                    return Direction.North;
+                default:
+                    throw new ArgumentOutOfRangeException(nameof(currentDirection));
+            }
         }
 
         public DomainEnums.Direction RotateRight(DomainEnums.Direction currentDirection)
