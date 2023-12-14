@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33712.159
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoDrivingCarSimulation", "AutoDrivingCarSimulation.csproj", "{4D23F03B-7693-4EF5-A885-196208FD0962}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoDrivingCarSimulation", "AutoDrivingCarSimulation\AutoDrivingCarSimulation.csproj", "{4D23F03B-7693-4EF5-A885-196208FD0962}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C7FD4F7B-D354-4671-9467-9302847A1F77}"
 EndProject
@@ -11,15 +11,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AutoDrivingCarSimulation.Pr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AutoDrivingCarSimulation.Domain", "AutoDrivingCarSimulation.Domain", "{49B1EA8D-4576-4F1B-B5D3-EA12B933F9AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Entities", "..\Domain.Entities\Domain.Entities.csproj", "{497D51D0-E98A-44D4-871F-8B1E29F297C8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Entities", "Domain.Entities\Domain.Entities.csproj", "{497D51D0-E98A-44D4-871F-8B1E29F297C8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AutoDrivingCarSimulation.Application", "AutoDrivingCarSimulation.Application", "{A7205EA8-BE9B-4092-AB6F-3DC9DC8FBC38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.Interfaces", "..\Application.Interfaces\Application.Interfaces.csproj", "{5F1D36BD-3846-4210-986B-76981D16B319}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.Interfaces", "Application.Interfaces\Application.Interfaces.csproj", "{5F1D36BD-3846-4210-986B-76981D16B319}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.Services", "..\Application.Services\Application.Services.csproj", "{6B397162-986E-4ABB-8508-CA6E00C1B696}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.Services", "Application.Services\Application.Services.csproj", "{6B397162-986E-4ABB-8508-CA6E00C1B696}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoDrivingCarSimulation.Tests", "..\AutoDrivingCarSimulation.Tests\AutoDrivingCarSimulation.Tests.csproj", "{9D4FD747-6F0D-4592-A84C-3B48FC8EBEFC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoDrivingCarSimulation.Tests", "AutoDrivingCarSimulation.Tests\AutoDrivingCarSimulation.Tests.csproj", "{9D4FD747-6F0D-4592-A84C-3B48FC8EBEFC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AutoDrivingCarSimulation.Tests", "AutoDrivingCarSimulation.Tests", "{C363875E-32DD-4DBA-831F-B123CEC23160}"
 EndProject
