@@ -36,8 +36,6 @@ public class Program
                 case 'R':
                     currentPosition = new Position(currentPosition.X, currentPosition.Y, _carService.RotateRight(currentPosition.Facing));
                     break;
-                    // Handle other commands if needed
-                    // ...
             }
         }
 
