@@ -11,34 +11,14 @@ public class Program
     {
         _carService = carService;
     }
-
     static void Main(string[] args)
     {
         var carService = new CarService();
-        var program = new Program(carService);
-        program.RunSimulation(10, 10, 1, 2, Direction.North, "FFRFFFRRLF");
-    }
+        var simulationService = new SimulationService(carService);
 
-    public void RunSimulation(int fieldWidth, int fieldHeight, int initialX, int initialY, Direction initialFacing, string commands)
-    {
-        var currentPosition = new Position(initialX, initialY, initialFacing);
 
-        foreach (var command in commands)
-        {
-            switch (command)
-            {
-                case 'F':
-                    currentPosition = _carService.MoveForward(currentPosition, fieldWidth, fieldHeight);
-                    break;
-                case 'L':
-                    currentPosition = new Position(currentPosition.X, currentPosition.Y, _carService.RotateLeft(currentPosition.Facing));
-                    break;
-                case 'R':
-                    currentPosition = new Position(currentPosition.X, currentPosition.Y, _carService.RotateRight(currentPosition.Facing));
-                    break;
-            }
-        }
+        var finalPosition = simulationService.RunSimulation(10, 10, 1, 2, Direction.North, "FFRFFFRRLFLF");
 
-        Console.WriteLine($"{currentPosition.X} {currentPosition.Y} {currentPosition.Facing}");
+        Console.WriteLine($"{finalPosition.X} {finalPosition.Y} {finalPosition.Facing}");
     }
 }
