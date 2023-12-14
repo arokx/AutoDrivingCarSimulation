@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.Interfaces", ".
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.Services", "..\Application.Services\Application.Services.csproj", "{6B397162-986E-4ABB-8508-CA6E00C1B696}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoDrivingCarSimulation.Tests", "..\AutoDrivingCarSimulation.Tests\AutoDrivingCarSimulation.Tests.csproj", "{9D4FD747-6F0D-4592-A84C-3B48FC8EBEFC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AutoDrivingCarSimulation.Tests", "AutoDrivingCarSimulation.Tests", "{C363875E-32DD-4DBA-831F-B123CEC23160}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +45,10 @@ Global
 		{6B397162-986E-4ABB-8508-CA6E00C1B696}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B397162-986E-4ABB-8508-CA6E00C1B696}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B397162-986E-4ABB-8508-CA6E00C1B696}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D4FD747-6F0D-4592-A84C-3B48FC8EBEFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D4FD747-6F0D-4592-A84C-3B48FC8EBEFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D4FD747-6F0D-4592-A84C-3B48FC8EBEFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D4FD747-6F0D-4592-A84C-3B48FC8EBEFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +61,8 @@ Global
 		{A7205EA8-BE9B-4092-AB6F-3DC9DC8FBC38} = {C7FD4F7B-D354-4671-9467-9302847A1F77}
 		{5F1D36BD-3846-4210-986B-76981D16B319} = {A7205EA8-BE9B-4092-AB6F-3DC9DC8FBC38}
 		{6B397162-986E-4ABB-8508-CA6E00C1B696} = {A7205EA8-BE9B-4092-AB6F-3DC9DC8FBC38}
+		{9D4FD747-6F0D-4592-A84C-3B48FC8EBEFC} = {C363875E-32DD-4DBA-831F-B123CEC23160}
+		{C363875E-32DD-4DBA-831F-B123CEC23160} = {C7FD4F7B-D354-4671-9467-9302847A1F77}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {96735963-2C97-4C6B-ADC0-77465BE8FFF6}
