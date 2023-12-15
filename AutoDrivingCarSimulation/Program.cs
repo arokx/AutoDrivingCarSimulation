@@ -44,7 +44,8 @@ public class Program
         catch (Exception ex)
         {
             Console.WriteLine();
-            Console.WriteLine("Invalid Inputs! Please ensure your input follows the correct format:");
+            Console.WriteLine($"Error: {ex.Message}");
+            Console.WriteLine("Please ensure your input follows the correct format:");
             Console.WriteLine("Field: width height (e.g., 10 10)");
             Console.WriteLine("Position: x y direction (e.g., 1 2 N)");
             Console.WriteLine("Commands: a sequence of L, R, and F (e.g., FFRFFFRRLF)");
